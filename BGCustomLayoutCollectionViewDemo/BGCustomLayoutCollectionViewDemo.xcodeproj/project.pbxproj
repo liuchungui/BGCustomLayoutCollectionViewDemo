@@ -30,7 +30,6 @@
 		CE07C61F1BE9E4C000DD260C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C6121BE9E4C000DD260C /* 9.jpg */; };
 		CE07C6231BE9E4EF00DD260C /* BGImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07C6211BE9E4EF00DD260C /* BGImageCollectionViewCell.m */; };
 		CE07C6241BE9E4EF00DD260C /* BGImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE07C6221BE9E4EF00DD260C /* BGImageCollectionViewCell.xib */; };
-		CE07C6271BE9E65100DD260C /* BGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07C6261BE9E65100DD260C /* BGCollectionViewController.m */; };
 		CE07C6341BE9EE3200DD260C /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C62A1BE9EE3200DD260C /* 14.jpg */; };
 		CE07C6351BE9EE3200DD260C /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C62B1BE9EE3200DD260C /* 15.jpg */; };
 		CE07C6361BE9EE3200DD260C /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C62C1BE9EE3200DD260C /* 16.jpg */; };
@@ -42,6 +41,7 @@
 		CE07C63C1BE9EE3200DD260C /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C6321BE9EE3200DD260C /* 22.jpg */; };
 		CE07C63D1BE9EE3200DD260C /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C6331BE9EE3200DD260C /* 23.jpg */; };
 		CE07C63F1BE9EF3A00DD260C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C63E1BE9EF3A00DD260C /* 0.jpg */; };
+		CE0DF5E71BEB9D5C00C86C3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF5E61BEB9D5C00C86C3E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +94,6 @@
 		CE07C6201BE9E4EF00DD260C /* BGImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGImageCollectionViewCell.h; sourceTree = "<group>"; };
 		CE07C6211BE9E4EF00DD260C /* BGImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGImageCollectionViewCell.m; sourceTree = "<group>"; };
 		CE07C6221BE9E4EF00DD260C /* BGImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BGImageCollectionViewCell.xib; sourceTree = "<group>"; };
-		CE07C6251BE9E65100DD260C /* BGCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCollectionViewController.h; sourceTree = "<group>"; };
-		CE07C6261BE9E65100DD260C /* BGCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCollectionViewController.m; sourceTree = "<group>"; };
 		CE07C62A1BE9EE3200DD260C /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
 		CE07C62B1BE9EE3200DD260C /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
 		CE07C62C1BE9EE3200DD260C /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
@@ -107,6 +105,8 @@
 		CE07C6321BE9EE3200DD260C /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
 		CE07C6331BE9EE3200DD260C /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
 		CE07C63E1BE9EF3A00DD260C /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		CE0DF5E51BEB9D5C00C86C3E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE0DF5E61BEB9D5C00C86C3E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +162,8 @@
 				CE07C6021BE9C6B200DD260C /* BGGrideLayout.m */,
 				CE07C5CE1BE9C5E700DD260C /* AppDelegate.h */,
 				CE07C5CF1BE9C5E700DD260C /* AppDelegate.m */,
-				CE07C6251BE9E65100DD260C /* BGCollectionViewController.h */,
-				CE07C6261BE9E65100DD260C /* BGCollectionViewController.m */,
+				CE0DF5E51BEB9D5C00C86C3E /* ViewController.h */,
+				CE0DF5E61BEB9D5C00C86C3E /* ViewController.m */,
 				CE07C6201BE9E4EF00DD260C /* BGImageCollectionViewCell.h */,
 				CE07C6211BE9E4EF00DD260C /* BGImageCollectionViewCell.m */,
 				CE07C6221BE9E4EF00DD260C /* BGImageCollectionViewCell.xib */,
@@ -388,10 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0DF5E71BEB9D5C00C86C3E /* ViewController.m in Sources */,
 				CE07C6031BE9C6B200DD260C /* BGGrideLayout.m in Sources */,
 				CE07C6231BE9E4EF00DD260C /* BGImageCollectionViewCell.m in Sources */,
 				CE07C5D01BE9C5E700DD260C /* AppDelegate.m in Sources */,
-				CE07C6271BE9E65100DD260C /* BGCollectionViewController.m in Sources */,
 				CE07C5CD1BE9C5E700DD260C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
