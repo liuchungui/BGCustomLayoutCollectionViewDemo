@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BGImageCollectionViewCell" id="gTV-IL-0wX" customClass="BGImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6d9-d7-mv7">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <animations/>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6d9-d7-mv7" secondAttribute="trailing" id="3ZB-SL-yWv"/>
+                <constraint firstAttribute="bottom" secondItem="6d9-d7-mv7" secondAttribute="bottom" id="IgT-TL-pSY"/>
+                <constraint firstItem="6d9-d7-mv7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="coN-83-6kn"/>
+                <constraint firstItem="6d9-d7-mv7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yzF-hF-wFE"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="6d9-d7-mv7" id="IxP-zl-lTG"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
