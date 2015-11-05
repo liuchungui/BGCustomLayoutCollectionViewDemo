@@ -26,7 +26,7 @@ static const NSInteger kRowCount = 4;
     BGGrideLayout *layout = [[BGGrideLayout alloc] init];
     layout.itemSize = CGSizeMake((mainScrreenWidth-(kRowCount+1)*spacing)/kRowCount, 150);
     layout.interitemSpacing = spacing;
-    layout.lineSpacing = spacing;
+    layout.lineSpacing = spacing*3;
     
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
     collectionView.dataSource = self;
