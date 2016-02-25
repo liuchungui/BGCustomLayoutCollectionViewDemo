@@ -25,8 +25,8 @@ static const NSInteger kRowCount = 4;
     CGFloat mainScrreenWidth = [UIScreen mainScreen].bounds.size.width;
     BGGrideLayout *layout = [[BGGrideLayout alloc] init];
     layout.itemSize = CGSizeMake((mainScrreenWidth-(kRowCount+1)*spacing)/kRowCount, 150);
-    layout.interitemSpacing = 1;
-    layout.lineSpacing = 1;
+    layout.interitemSpacing = spacing;
+    layout.lineSpacing = spacing;
     layout.contentInset = UIEdgeInsetsMake(10, 0, 0, 100);
     
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
@@ -45,12 +45,12 @@ static const NSInteger kRowCount = 4;
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 3;
+    return 6;
 }
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 100;
+    return 10;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
